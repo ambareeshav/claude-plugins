@@ -25,7 +25,7 @@
     {
       "name": "prs",
       "source": { "source": "github", "repo": "ambareeshav/claude-pr-review-mod" },
-      "description": "Browse and review Azure DevOps pull requests from inside Claude Code via /prs.",
+      "description": "Dock a pull request review (diff, file tree, commits) beside your session via /prs, for Azure DevOps or GitHub.",
       "homepage": "https://github.com/ambareeshav/claude-pr-review-mod",
       "license": "MIT"
     }
