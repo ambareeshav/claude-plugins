@@ -1,0 +1,33 @@
+{
+  "name": "ambareeshav",
+  "owner": { "name": "Ambareesha Vittal" },
+  "metadata": { "description": "Ambareesha Vittal's Claude Code plugins: rvr, idd, spotify and prs." },
+  "plugins": [
+    {
+      "name": "rvr",
+      "source": { "source": "github", "repo": "ambareeshav/rvr" },
+      "description": "Research, Validate, Report: end a message with rvr to pressure-test a design before you commit to it.",
+      "homepage": "https://github.com/ambareeshav/rvr"
+    },
+    {
+      "name": "idd",
+      "source": { "source": "github", "repo": "ambareeshav/idd" },
+      "description": "Ideate, Debate, Discuss: end a message with idd and Claude only discusses and plans, with no code changes.",
+      "homepage": "https://github.com/ambareeshav/idd"
+    },
+    {
+      "name": "spotify",
+      "source": { "source": "github", "repo": "ambareeshav/claude-spotify-mod" },
+      "description": "Icon-only Spotify controls above the prompt, with a fullscreen sidebar for browsing and playing your playlists.",
+      "homepage": "https://github.com/ambareeshav/claude-spotify-mod",
+      "license": "MIT"
+    },
+    {
+      "name": "prs",
+      "source": { "source": "github", "repo": "ambareeshav/claude-pr-review-mod" },
+      "description": "Browse and review Azure DevOps pull requests from inside Claude Code via /prs.",
+      "homepage": "https://github.com/ambareeshav/claude-pr-review-mod",
+      "license": "MIT"
+    }
+  ]
+}
