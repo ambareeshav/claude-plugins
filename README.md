@@ -13,4 +13,8 @@ One marketplace for all my Claude Code plugins. Add it once, then install whiche
 | [spotify](https://github.com/ambareeshav/claude-spotify-mod) | Icon-only Spotify controls above the prompt, with a fullscreen sidebar for your playlists. | `/plugin install spotify@ambareeshav` |
 | [prs](https://github.com/ambareeshav/claude-pr-review-mod) | Dock a pull request review (diff, file tree, commits) beside your session via `/prs`, for Azure DevOps or GitHub. | `/plugin install prs@ambareeshav` |
 
+Or, once the marketplace is added, run `/plugin`, open the **ambareeshav** marketplace, and install any of them from the list.
+
+If you're continuing a session, run `/reload-plugins` after installing to turn them on.
+
 From the terminal, use `claude plugin marketplace add ambareeshav/claude-plugins` and `claude plugin install <name>@ambareeshav`.
