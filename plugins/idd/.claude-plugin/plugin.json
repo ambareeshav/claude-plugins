@@ -1,0 +1,9 @@
+{
+  "name": "idd",
+  "description": "Ideate, Debate, Discuss: end a message with idd and Claude only discusses and plans, with no code changes.",
+  "version": "0.1.0",
+  "author": { "name": "Ambareesha Vittal" },
+  "homepage": "https://github.com/ambareeshav/idd",
+  "repository": "https://github.com/ambareeshav/idd",
+  "license": "MIT"
+}

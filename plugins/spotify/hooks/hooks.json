@@ -1,0 +1,6 @@
+{
+  "description": "Spotify for Claude Code: transport controls above the prompt (AppleScript) and a sidebar pane (Spotify Web API) to search, browse and play, with album art",
+  "modules": [
+    "./register.tsx"
+  ]
+}

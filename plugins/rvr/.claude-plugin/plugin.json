@@ -1,0 +1,11 @@
+{
+  "name": "rvr",
+  "description": "Research-Validate-Report: a feasibility-check skill (with keyword hook) that gates, researches, adversarially validates, and reports on architectural/technical proposals before you commit to them.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ambareesha Vittal"
+  },
+  "homepage": "https://github.com/ambareeshav/rvr",
+  "repository": "https://github.com/ambareeshav/rvr",
+  "license": "MIT"
+}

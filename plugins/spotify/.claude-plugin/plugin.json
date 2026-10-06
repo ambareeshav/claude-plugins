@@ -1,0 +1,25 @@
+{
+  "name": "spotify",
+  "version": "0.15.0",
+  "description": "Icon-only Spotify controls above the prompt (prev/play-pause/next/mute, AppleScript, no login) with a fullscreen sidebar for browsing/playing your playlists and Liked Songs (Spotify Web API, needs your own free Spotify app's Client ID: /spotify config <id>).",
+  "author": {
+    "name": "Ambareesha Vittal"
+  },
+  "homepage": "https://github.com/ambareeshav/spotify",
+  "repository": "https://github.com/ambareeshav/spotify",
+  "license": "MIT",
+  "keywords": [
+    "spotify",
+    "music",
+    "terminal",
+    "tui",
+    "function-hooks"
+  ],
+  "userConfig": {
+    "clientId": {
+      "type": "string",
+      "title": "Spotify Client ID (optional)",
+      "description": "Your Spotify app's Client ID (developer.spotify.com/dashboard, Redirect URI exactly http://127.0.0.1:8907/callback). Easier: run /spotify config <client-id> instead. When set here, this wins over that."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "prs",
+  "version": "0.8.0",
+  "description": "Browse and review Azure DevOps pull requests from inside Claude Code via /prs",
+  "author": { "name": "Ambareesha Vittal" },
+  "homepage": "https://github.com/ambareeshav/prs",
+  "repository": "https://github.com/ambareeshav/prs",
+  "license": "MIT",
+  "userConfig": {
+    "org": {
+      "type": "string",
+      "title": "Fallback org",
+      "description": "Fallback Azure DevOps organization name, used only when it can't be parsed from a repo's git remote"
+    },
+    "tokenTtlMinutes": {
+      "type": "string",
+      "title": "Token cache (minutes)",
+      "options": ["30", "45", "55"],
+      "default": "45",
+      "description": "How long to cache the az access token before refreshing (Entra tokens last ~60min)"
+    }
+  }
+}

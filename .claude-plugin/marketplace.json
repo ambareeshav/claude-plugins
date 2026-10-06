@@ -5,28 +5,30 @@
   "plugins": [
     {
       "name": "rvr",
-      "source": { "source": "github", "repo": "ambareeshav/rvr" },
+      "source": "./plugins/rvr",
       "description": "Research, Validate, Report: end a message with rvr to pressure-test a design before you commit to it.",
-      "homepage": "https://github.com/ambareeshav/rvr"
+      "homepage": "https://github.com/ambareeshav/rvr",
+      "license": "MIT"
     },
     {
       "name": "idd",
-      "source": { "source": "github", "repo": "ambareeshav/idd" },
+      "source": "./plugins/idd",
       "description": "Ideate, Debate, Discuss: end a message with idd and Claude only discusses and plans, with no code changes.",
-      "homepage": "https://github.com/ambareeshav/idd"
+      "homepage": "https://github.com/ambareeshav/idd",
+      "license": "MIT"
     },
     {
       "name": "spotify",
-      "source": { "source": "github", "repo": "ambareeshav/claude-spotify-mod" },
+      "source": "./plugins/spotify",
       "description": "Icon-only Spotify controls above the prompt, with a fullscreen sidebar for browsing and playing your playlists.",
-      "homepage": "https://github.com/ambareeshav/claude-spotify-mod",
+      "homepage": "https://github.com/ambareeshav/spotify",
       "license": "MIT"
     },
     {
       "name": "prs",
-      "source": { "source": "github", "repo": "ambareeshav/claude-pr-review-mod" },
+      "source": "./plugins/prs",
       "description": "Dock a pull request review (diff, file tree, commits) beside your session via /prs, for Azure DevOps or GitHub.",
-      "homepage": "https://github.com/ambareeshav/claude-pr-review-mod",
+      "homepage": "https://github.com/ambareeshav/prs",
       "license": "MIT"
     }
   ]
