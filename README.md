@@ -12,6 +12,7 @@ One marketplace for all my Claude Code plugins. Add it once, then install whiche
 | [idd](https://github.com/ambareeshav/idd) | Ideate, Debate, Discuss. End a message with `idd` and Claude only discusses and plans, with no code changes. | `/plugin install idd@ambareeshav` |
 | [spotify](https://github.com/ambareeshav/spotify) | Icon-only Spotify controls above the prompt, with a fullscreen sidebar for your playlists. | `/plugin install spotify@ambareeshav` |
 | [prs](https://github.com/ambareeshav/prs) | Dock a pull request review (diff, file tree, commits) beside your session via `/prs`, for Azure DevOps or GitHub. | `/plugin install prs@ambareeshav` |
+| [worktrees](https://github.com/ambareeshav/worktrees) | Every git worktree with its Claude sessions, staleness and merge state in a docked panel via `/worktrees`, with multi-select delete. | `/plugin install worktrees@ambareeshav` |
 
 Or, once the marketplace is added, run `/plugin`, open the **ambareeshav** marketplace, and install any of them from the list.
 
@@ -19,4 +20,4 @@ If you're continuing a session, run `/reload-plugins` after installing to turn t
 
 From the terminal, use `claude plugin marketplace add ambareeshav/claude-plugins` and `claude plugin install <name>@ambareeshav`.
 
-Each plugin's source lives under `plugins/<name>` in this repo — the standalone `rvr`/`idd`/`spotify`/`prs` repos remain for individual installs and history, but this repo is the canonical one going forward.
+Each plugin's source lives under `plugins/<name>` in this repo — the standalone `rvr`/`idd`/`spotify`/`prs`/`worktrees` repos remain for individual installs and history, but this repo is the canonical one going forward.

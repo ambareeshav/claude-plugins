@@ -1,7 +1,7 @@
 {
   "name": "ambareeshav",
   "owner": { "name": "Ambareesha Vittal" },
-  "metadata": { "description": "Ambareesha Vittal's Claude Code plugins: rvr, idd, spotify and prs." },
+  "metadata": { "description": "Ambareesha Vittal's Claude Code plugins: rvr, idd, spotify, prs and worktrees." },
   "plugins": [
     {
       "name": "rvr",
@@ -29,6 +29,13 @@
       "source": "./plugins/prs",
       "description": "Dock a pull request review (diff, file tree, commits) beside your session via /prs, for Azure DevOps or GitHub.",
       "homepage": "https://github.com/ambareeshav/prs",
+      "license": "MIT"
+    },
+    {
+      "name": "worktrees",
+      "source": "./plugins/worktrees",
+      "description": "Every git worktree with its Claude sessions, staleness and merge state in a docked panel via /worktrees, with multi-select delete.",
+      "homepage": "https://github.com/ambareeshav/worktrees",
       "license": "MIT"
     }
   ]

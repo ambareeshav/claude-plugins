@@ -1,0 +1,32 @@
+{
+  "name": "worktrees",
+  "version": "0.1.0",
+  "description": "See every git worktree with its Claude sessions, how stale it is and whether it's merged into your target branches; multi-select delete via /worktrees",
+  "author": {
+    "name": "Ambareesha Vittal"
+  },
+  "homepage": "https://github.com/ambareeshav/worktrees",
+  "repository": "https://github.com/ambareeshav/worktrees",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "roots": {
+      "type": "string",
+      "title": "Roots",
+      "description": "Folders searched for git repos, comma separated",
+      "default": "~/code"
+    },
+    "depth": {
+      "type": "number",
+      "title": "Search depth",
+      "description": "How deep under each root to look for repos",
+      "default": 6
+    },
+    "staleDays": {
+      "type": "number",
+      "title": "Stale after (days)",
+      "description": "Days without commits or session activity before a worktree counts as stale",
+      "default": 14
+    }
+  }
+}
